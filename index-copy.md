@@ -1,7 +1,7 @@
 ---
 title: Home
 banner_image: "/img/banner.png"
-layout: landing-page
+layout: stack-base
 heading: Belkirk College
 partners:
 - "/uploads/2017/11/13/stem.png"
