@@ -44,6 +44,8 @@
             <!--end bar-->
         </div>
         <div class="main-container">
+            {% include /stack/hero.html %}
+            {%- comment -%}
             <section class="cover height-100 imagebg parallax" data-overlay="4">
                 <div class="background-image-holder">
                     <img alt="background" src="/assets/img/gfp-shelf.png" />
@@ -56,12 +58,9 @@
                             </h1>
                             <p class="lead">
                                 The Most Advanced Purification Mechanisms in One Commercial Grade Unit! The most advanced "Occupied Space" infection control technologies available, in a quiet, small footprint, commercial grade application.
-                                {%- comment -%}
                                 Peace of mind protection for up to 4,000 sq.ft.
                                 Safe for people and pets!
-                                {%- endcomment -%}
                             </p>
-                            {%- comment -%}
                             <div class="modal-instance block">
                                 <div class="video-play-icon video-play-icon--sm modal-trigger"></div>
                                 <span>
@@ -74,7 +73,6 @@
                                 </div>
                                 <!--end of modal-container-->
                             </div>
-                            {%- endcomment -%}
                             <!--end of modal instance-->
                         </div>
                     </div>
@@ -82,6 +80,7 @@
                 </div>
                 <!--end of container-->
             </section>
+            {%- endcomment -%}
             <section class="switchable switchable--switch feature-large">
                 <div class="container">
                     <div class="row justify-content-around">
